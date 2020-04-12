@@ -3,7 +3,7 @@
   "palette": "blue",
   "header": {
     "title": "Supercube",
-    "logo_img": "/images/supercube_bold.png",
+    "logo_img": "/images/logo.png",
     "has_nav": true,
     "nav_links": [
       {
