@@ -49,10 +49,12 @@ h6 {
 }
 
 h1 {
+  font-size: 75px;
   font-size: 2.44444rem;
 }
 
 h2 {
+  font-size: 75px;
   font-size: 2rem;
 }
 
@@ -73,6 +75,10 @@ h6 {
 }
 
 p {
+  font-family: _font(secondary);
+  color: #000;
+  font-weight: 400;
+  line-height: 1.5;
   margin: 0 0 1.66667em;
 }
 
@@ -150,8 +156,8 @@ ol {
   padding: 0 0 0 1.66667em;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
   margin-bottom: 0;
 }
 
@@ -303,7 +309,7 @@ a.button.large {
 .button.white {
   background: #fff;
   border-color: transparent;
-  box-shadow: 0 20px 30px 0 rgba(_palette(primary),.2);
+  box-shadow: 0 20px 30px 0 rgba(_palette(primary), .2);
   color: _palette(primary);
   -webkit-transition: box-shadow .2s ease-in-out;
   transition: box-shadow .2s ease-in-out;
@@ -395,7 +401,7 @@ img {
 
 /* Text meant only for screen readers */
 .screen-reader-text,
-.site-logo + .site-title {
+.site-logo+.site-title {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
