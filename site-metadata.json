@@ -4,7 +4,7 @@
   "header": {
     "title": "Supercube",
     "logo_img": "/images/logo.png",
-    "has_nav": true,
+    "has_nav": false,
     "nav_links": [
       {
         "label": "Home",
@@ -45,7 +45,7 @@
     ],
     "tagline": "Protect from COVID-19",
     "logo_img": "images/logo_alt.png",
-    "has_social": true,
+    "has_social": false,
     "content": "&copy; Stackbit. All rights reserved.",
     "links": [],
     "nav_title": "Supercube",
@@ -67,6 +67,6 @@
         "url": "/contact"
       }
     ],
-    "has_nav": true
+    "has_nav": false
   }
 }
