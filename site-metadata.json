@@ -1,8 +1,8 @@
 {
-    "title": "Stackbit Azimuth Theme",
+    "title": "Supercube",
     "palette": "blue",
     "header": {
-        "title": "Azimuth",
+        "title": "Supercube",
         "logo_img": "images/logo.png",
         "has_nav": true,
         "nav_links": [
