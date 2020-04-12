@@ -2,21 +2,13 @@
   "title": "Stackbit Azimuth Theme",
   "palette": "blue",
   "header": {
-    "title": "Azimuth",
+    "title": "Supercube",
     "logo_img": "/images/supercube_bold.png",
     "has_nav": true,
     "nav_links": [
       {
         "label": "Home",
         "url": "/"
-      },
-      {
-        "label": "Features",
-        "url": "/features"
-      },
-      {
-        "label": "Pricing",
-        "url": "/pricing"
       },
       {
         "label": "Style Guide",
@@ -55,14 +47,8 @@
     "logo_img": "images/logo_alt.png",
     "has_social": true,
     "content": "&copy; Stackbit. All rights reserved.",
-    "links": [
-      {
-        "label": "Made with Stackbit",
-        "url": "https://www.stackbit.com",
-        "new_window": true
-      }
-    ],
-    "nav_title": "Company",
+    "links": [],
+    "nav_title": "Supercube",
     "nav_links": [
       {
         "label": "About Us",
