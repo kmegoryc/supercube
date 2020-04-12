@@ -6,6 +6,12 @@ module.exports = {
         `gatsby-source-data`,
         `gatsby-plugin-sass`,
         {
+            resolve: `gatsby-plugin-sass`,
+            options: {
+                includePaths: [`./src/sass/main.scss`],
+            },
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `pages`,
