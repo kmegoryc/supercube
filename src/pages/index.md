@@ -5,13 +5,13 @@ sections:
     title: Protect from COVID-19 with Supercube
     section_id: hero
     content: At Supercube, we want to make protecting yourself from a virus simple
-      and reliable. Using the proved method of UV radiation, our device blasts
-      away all germs the light comes in contact with. You can eliminate germs on
-      your masks for reuse, income packages, clothing or... really anything that
-      will fit inside.
+      and reliable. Using the proved medium of UV light, our device eliminates
+      all germs on surfaces the light is exposed to. This allows you to
+      disinfect masks for reuse, package items, clothing, and really anything
+      else you can think of.
     image: /images/covid.jpg
     actions:
-      - label: Pre-order
+      - label: Preorder
         url: /preorder
         primary: true
   - type: section_features
