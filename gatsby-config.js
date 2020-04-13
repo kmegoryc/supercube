@@ -4,6 +4,13 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-sass`,
+        {
+            resolve: `gatsby-plugin-sass`,
+            options: {
+                includePaths: [`./src/sass/main.scss`],
+            },
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -15,27 +22,34 @@ module.exports = {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
-                outputFile: `${__dirname}/public/assets/css/main.css`
+                outputFile: `${__dirname}/public/assets/css/main.css`,
             },
         },
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                plugins: [`gatsby-remark-component`]
-            }
+                plugins: [`gatsby-remark-component`],
+            },
         },
         {
             resolve: `gatsby-remark-page-creator`,
-            options: {
-                
-            }
+            options: {},
         },
         {
             resolve: `@stackbit/gatsby-plugin-menus`,
             options: {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
-            }
-        }
-    ]
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-web-font-loader',
+            options: {
+                custom: {
+                    families: ['Brandon Grotesque Black'],
+                    urls: ['/fonts/fonts.css'],
+                },
+            },
+        },
+    ],
 };

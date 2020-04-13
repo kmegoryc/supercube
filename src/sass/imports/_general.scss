@@ -38,7 +38,10 @@ h4,
 h5,
 h6 {
   color: _palette(secondary);
-  font-weight: bold;
+  font-family: _font(primary);
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
   line-height: 1.2;
   margin: 2.5rem 0 0.83333rem;
   text-rendering: optimizeLegibility;
@@ -49,30 +52,39 @@ h6 {
 }
 
 h1 {
-  font-size: 2.44444rem;
+  font-size: $fs-h1;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: $fs-h2;
+  font-weight: 400;
 }
 
 h3 {
-  font-size: 1.66667rem;
+  font-size: $fs-h3;
+  font-weight: 400;
 }
 
 h4 {
-  font-size: 1.33333rem;
+  font-size: $fs-h4;
+  font-weight: 400;
 }
 
 h5 {
-  font-size: 1.11111rem;
+  font-size: $fs-h4;
+  font-weight: 400;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: $fs-h4;
+  font-weight: 400;
 }
 
 p {
+  font-size: $fs-p;
+  font-family: _font(secondary);
+  font-weight: 400;
   margin: 0 0 1.66667em;
 }
 
@@ -150,8 +162,8 @@ ol {
   padding: 0 0 0 1.66667em;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
   margin-bottom: 0;
 }
 
@@ -303,7 +315,7 @@ a.button.large {
 .button.white {
   background: #fff;
   border-color: transparent;
-  box-shadow: 0 20px 30px 0 rgba(_palette(primary),.2);
+  box-shadow: 0 20px 30px 0 rgba(_palette(primary), .2);
   color: _palette(primary);
   -webkit-transition: box-shadow .2s ease-in-out;
   transition: box-shadow .2s ease-in-out;
@@ -395,7 +407,7 @@ img {
 
 /* Text meant only for screen readers */
 .screen-reader-text,
-.site-logo + .site-title {
+.site-logo+.site-title {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
