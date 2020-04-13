@@ -11,8 +11,9 @@ sections:
       will fit inside.
     image: /images/covid.jpg
     actions:
-      - label: Learn More
-        url: /features
+      - label: Pre-order
+        url: /preorder
+        primary: true
   - type: section_features
     title: Features
     section_id: features
