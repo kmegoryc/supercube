@@ -9,7 +9,7 @@ sections:
       away all germs the light comes in contact with. You can eliminate germs on
       your masks for reuse, income packages, clothing or... really anything that
       will fit inside.
-    image: /images/art.png
+    image: /images/covid.jpg
     actions:
       - label: Learn More
         url: /features
