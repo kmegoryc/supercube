@@ -21,7 +21,7 @@ sections:
       metus quis lorem malesuada luctus.
     background: gray
     features:
-      - title: The Best Feature of Your Services
+      - title: Proven effective disinfectant method
         content: Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
           aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
           consequat ex.
@@ -29,7 +29,7 @@ sections:
         actions:
           - label: Learn More
             url: /features
-      - title: Awesome Feature of Your Services
+      - title: Safe
         content: Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
           sapien interdum luctus. Cras rhoncus condimentum metus sit amet
           auctor.
@@ -37,7 +37,7 @@ sections:
         actions:
           - label: Learn More
             url: /features
-      - title: Cool Feature of Your Services
+      - title: Contributing towad a cause
         content: In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
