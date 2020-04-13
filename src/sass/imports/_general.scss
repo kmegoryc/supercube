@@ -260,8 +260,9 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 a.button {
+  font-family: _font(primary);
   background: _palette(accent);
-  border-radius: 3px;
+  border-radius: 100px;
   border: 2px solid _palette(accent);
   box-sizing: border-box;
   color: #fff;

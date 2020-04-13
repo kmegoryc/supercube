@@ -26,7 +26,7 @@ export default class SectionHero extends React.Component {
                     {_.get(section, 'actions') &&
                     <p className="block-buttons">
                       {_.map(_.get(section, 'actions'), (action, action_idx) => (
-                        <ActionLink key={action_idx} {...this.props} action={action} class_names={'button white large'} />
+                        <ActionLink key={action_idx} {...this.props} action={action} class_names={'button large'} />
                       ))}
                     </p>
                     }
