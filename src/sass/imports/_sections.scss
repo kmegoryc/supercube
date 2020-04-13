@@ -3,7 +3,6 @@
  * ----------------------------------------------------------------------------
  */
 .block-title {
-  font-size: 2.44444rem;
   margin: 0 0 1.33333rem;
 
   &:last-child {
@@ -99,9 +98,9 @@
     }
 
     .block-content {
-      -webkit-flex: 4;
-      -ms-flex: 4;
-      flex: 4;
+      -webkit-flex: 5;
+      -ms-flex: 5;
+      flex: 5;
     }
 
     .underline:after {
@@ -543,7 +542,7 @@
   }
 
   &.bg-accent {
-    background: white;
+    background: #fff;
     // background: _palette(accent);
     // background: -webkit-linear-gradient(left, _palette(accent), _palette(accent-alt));
     // background: linear-gradient(to right, _palette(accent), _palette(accent-alt));

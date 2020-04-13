@@ -4,12 +4,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
-        {
-            resolve: `gatsby-plugin-sass`,
-            options: {
-                includePaths: [`./src/sass/main.scss`],
-            },
-        },
+        `gatsby-plugin-sass`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {

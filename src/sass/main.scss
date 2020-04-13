@@ -6,11 +6,34 @@ $font: (primary: ('Brandon Grotesque Black',
     sans-serif,
   ));
 
+// Font sizes.
+$fs-h1: 75px;
+$fs-h1-m: 38px;
+$fs-h1-s: 32px;
+$fs-h2: 44px;
+$fs-h2-m: 32px;
+$fs-h2-s: 24px;
+$fs-h3: 32px;
+$fs-h3-m: $fs-h2-s;
+$fs-h3-s: 20px;
+$fs-h4: 22px;
+$fs-h4-m: 16px;
+// $fs-eyebrow: 14px;
+// $fs-eyebrow-m: 12px;
+// $fs-subhead: 18px;
+// $fs-subhead-m: $fs-h4-m;
+$fs-p: 16px;
+// $fs-p-m: $fs-eyebrow;
+// $fs-footnote: $fs-eyebrow-m;
+// $fs-links: $fs-h4-m;
+// $fs-links-m: $fs-eyebrow;
+// $fs-icons: 19px;
+
 // Palette.
-$palette: (primary: #4c5267,
-  secondary: darken(#4c5267, 15%),
-  meta: lighten(#4c5267, 20%),
-  border: lighten(#4c5267, 58%),
+$palette: (primary: #535556,
+  secondary: darken(#535556, 15%),
+  meta: lighten(#535556, 20%),
+  border: lighten(#535556, 58%),
   bg: #f7f9fb,
   accent: #0072ff,
   accent-alt: #00c6ff,
