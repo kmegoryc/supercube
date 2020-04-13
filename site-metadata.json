@@ -15,8 +15,8 @@
         "url": "/style-guide"
       },
       {
-        "label": "Sign Up",
-        "url": "/signup",
+        "label": "Preorder",
+        "url": "/preorder",
         "primary": true
       }
     ]
