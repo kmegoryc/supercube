@@ -11,10 +11,6 @@
         "url": "/"
       },
       {
-        "label": "Style Guide",
-        "url": "/style-guide"
-      },
-      {
         "label": "Preorder",
         "url": "/preorder",
         "primary": true
