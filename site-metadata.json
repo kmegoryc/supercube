@@ -44,9 +44,9 @@
       }
     ],
     "tagline": "Protect from COVID-19",
-    "logo_img": "images/logo_alt.png",
+    "logo_img": "/images/logo.png",
     "has_social": true,
-    "content": "&copy; Stackbit. All rights reserved.",
+    "content": "",
     "links": [],
     "nav_title": "Supercube",
     "nav_links": [
