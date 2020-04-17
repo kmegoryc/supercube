@@ -6,37 +6,30 @@ sections:
     section_id: hero
     content: The world's first quick and portable PPE decontamination unit
     image: /images/covid.jpg
-    actions:
-      - label: Preorder
-        url: /preorder
-        primary: true
+    actions: []
   - type: section_features
-    title: Features
+    title: ""
     section_id: features
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
-      metus quis lorem malesuada luctus.
+    subtitle: "Our mission: Provide every hospital in America with a way to
+      decontaminate PPE."
     background: gray
     features:
-      - title: Proven effective disinfectant method
-        content: Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+      - title: Highly effective
+        content: Our UVGI system delivers a dosage of > 1 v/cm2 in only xx minutes,
+          allowing you to clean xx masks per hour.
         image: images/feature1.png
         actions:
           - label: Learn More
             url: /features
-      - title: Safe
-        content: Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+      - title: Mobilize in minutes
+        content: Our system can be set up in minutes by untrained staff.
         image: images/feature2.png
         actions:
           - label: Learn More
             url: /features
-      - title: Contributing towad a cause
-        content: In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+      - title: Minimal foottprint
+        content: With only 26 x 26 foottprint, our disinfection tent can be set up
+          nearly anywhere.
         image: images/feature3.png
         actions:
           - label: Learn More
