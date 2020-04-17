@@ -4,11 +4,7 @@ sections:
   - type: section_hero
     title: Protect from COVID-19 with Supercube
     section_id: hero
-    content: At Supercube, we want to make protecting yourself from a virus simple
-      and reliable. Using the proved medium of UV light, our device eliminates
-      all germs on surfaces the light is exposed to. This allows you to
-      disinfect masks for reuse, package items, clothing, and really anything
-      else you can think of.
+    content: The world's first quick and portable PPE decontamination unit
     image: /images/covid.jpg
     actions:
       - label: Preorder
