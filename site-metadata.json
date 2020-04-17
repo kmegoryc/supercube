@@ -9,60 +9,22 @@
       {
         "label": "Home",
         "url": "/"
-      },
-      {
-        "label": "Preorder",
-        "url": "/preorder",
-        "primary": true
       }
     ]
   },
   "footer": {
     "subscribe_title": "Subscribe",
     "subscribe_content": "Stay up to date with our latest developments.",
-    "has_subscribe": true,
+    "has_subscribe": false,
     "social_title": "Community",
-    "social_links": [
-      {
-        "label": "Twitter",
-        "url": "https://twitter.com/",
-        "new_window": true
-      },
-      {
-        "label": "Instagram",
-        "url": "https://www.instagram.com/",
-        "new_window": true
-      },
-      {
-        "label": "LinkedIn",
-        "url": "https://www.linkedin.com/",
-        "new_window": true
-      }
-    ],
+    "social_links": [],
     "tagline": "Protect from COVID-19",
     "logo_img": "/images/logo.png",
-    "has_social": true,
+    "has_social": false,
     "content": "",
     "links": [],
     "nav_title": "Supercube",
-    "nav_links": [
-      {
-        "label": "About Us",
-        "url": "/about"
-      },
-      {
-        "label": "Blog",
-        "url": "/blog"
-      },
-      {
-        "label": "Sign Up",
-        "url": "signup"
-      },
-      {
-        "label": "Contact",
-        "url": "/contact"
-      }
-    ],
-    "has_nav": true
+    "nav_links": [],
+    "has_nav": false
   }
 }
