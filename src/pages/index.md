@@ -45,16 +45,5 @@ sections:
         actions:
           - label: Learn More
             url: /features
-  - type: section_cta
-    title: This Is Call To Action Block!
-    section_id: call-to-action
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
-  - type: section_posts
-    title: Latest Posts
-    section_id: recent-posts
-    background: gray
 template: landing
 ---
