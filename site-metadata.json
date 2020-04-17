@@ -9,6 +9,12 @@
       {
         "label": "Home",
         "url": "/"
+      },
+      {
+        "new_window": true,
+        "label": "Research",
+        "url": "/research",
+        "primary": true
       }
     ]
   },
