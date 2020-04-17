@@ -15,6 +15,11 @@
         "label": "Research",
         "url": "/research",
         "primary": true
+      },
+      {
+        "new_window": false,
+        "label": "Contact",
+        "url": "#contact"
       }
     ]
   },
