@@ -35,10 +35,5 @@ sections:
         actions:
           - label: Learn More
             url: /features
-  - type: section_contact
-    background: gray
-    title: Contact Us
-    section_id: contact
-    subtitle: Holla
 template: landing
 ---
