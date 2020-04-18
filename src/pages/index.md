@@ -2,10 +2,11 @@
 title: Home
 sections:
   - type: section_hero
-    title: Protect from COVID-19 with Supercube
+    title: Protect from COVID-19
     section_id: hero
-    content: The world's first quick and portable PPE decontamination unit
-    image: /images/covid.jpg
+    content: No healthcare worker should have to reuse contaminated PPE. The world's
+      first quick and portable PPE decontamination unit.
+    image: /images/anshu-a-yaxbfq1wi7i-unsplash.jpg
     actions: []
   - type: section_features
     title: ""
