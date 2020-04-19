@@ -12,6 +12,18 @@ sections:
         label: Request a cube
         url: "#request"
         primary: true
+  - type: section_content
+    background: gray
+    title: Why Supercube?
+    content: >-
+      Hospitals all over the world are rapidly using and disposing of masks that
+      they cannot reuse during a global pandemic. Masks are our most valuable
+      asset during this time, and can mean the difference between life and death
+      for our frontline doctors and hospital staff.
+
+
+      Supercube offers an effective and proven mask reuse solution for hospitals. This unit utilizes an ultraviolet wavelength, UV-C, that has been test-proven to completely eradicate COVID-19. Hospitals can help keep their vulnerable staff and patients safe from contracting or spreading COVID-19.
+    section_id: why
   - type: section_features
     title: ""
     section_id: features
@@ -39,9 +51,5 @@ sections:
         actions:
           - label: Learn More
             url: /features
-  - type: section_content
-    background: gray
-    title: Content
-    content: here is my content!
 template: landing
 ---
