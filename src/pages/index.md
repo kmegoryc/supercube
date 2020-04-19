@@ -7,7 +7,11 @@ sections:
     content: No healthcare worker should have to reuse contaminated PPE. The world's
       first quick and portable PPE decontamination unit.
     image: /images/anshu-a-yaxbfq1wi7i-unsplash.jpg
-    actions: []
+    actions:
+      - new_window: false
+        label: Request a cube
+        url: "#request"
+        primary: true
   - type: section_features
     title: ""
     section_id: features
