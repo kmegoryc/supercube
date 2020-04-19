@@ -39,5 +39,9 @@ sections:
         actions:
           - label: Learn More
             url: /features
+  - type: section_content
+    background: gray
+    title: Content
+    content: here is my content!
 template: landing
 ---
