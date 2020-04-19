@@ -6,9 +6,10 @@ module.exports = {
         `gatsby-source-data`,
         `gatsby-plugin-sass`,
         {
-            resolve: `gatsby-plugin-sass`,
+            resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
-                includePaths: [`./src/sass/main.scss`],
+                inputFile: `${__dirname}/src/sass/main.scss`,
+                outputFile: `${__dirname}/public/assets/css/main.css`,
             },
         },
         {
@@ -16,13 +17,6 @@ module.exports = {
             options: {
                 name: `pages`,
                 path: `${__dirname}/src/pages`,
-            },
-        },
-        {
-            resolve: `gatsby-plugin-stackbit-static-sass`,
-            options: {
-                inputFile: `${__dirname}/src/sass/main.scss`,
-                outputFile: `${__dirname}/public/assets/css/main.css`,
             },
         },
         {

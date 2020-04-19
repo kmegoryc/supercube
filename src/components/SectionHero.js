@@ -17,9 +17,10 @@ export default class SectionHero extends React.Component {
                   </div>
                   }
                   <div className="cell block-content">
-                    {_.get(section, 'title') &&
-                    <h1 className="block-title underline">{_.get(section, 'title')}</h1>
-                    }
+                    <h1 className="block-title highlight">
+                      <span>PROTECT FROM</span>
+                      <br/>
+                      <span>COVID-19</span></h1>
                     <div className="block-copy">
                       {markdownify(_.get(section, 'content'))}
                     </div>

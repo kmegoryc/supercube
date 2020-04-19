@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import _ from 'lodash';
+import "../sass/main.scss"
 
 import {safePrefix} from '../utils';
 import Header from './Header';
@@ -16,7 +17,8 @@ export default class Body extends React.Component {
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="google" content="notranslate" />
                     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400" rel="stylesheet"/>
-                    <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
+                    {/* TODO: Uncomment when deploying app */}
+                    {/* <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/> */}
                 </Helmet>
                 <div id="page" className={'site palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
                   <Header {...this.props} />

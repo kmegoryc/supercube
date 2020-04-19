@@ -91,9 +91,9 @@
     }
 
     .block-preview {
-      -webkit-flex: 2;
-      -ms-flex: 2;
-      flex: 2;
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
       padding-right: 68px;
     }
 
@@ -103,8 +103,31 @@
       flex: 5;
     }
 
+    .block-copy {
+      max-width: 480px;
+    }
+
     .underline:after {
       display: block;
+    }
+
+    .highlight {
+      span {
+        position: relative;
+        z-index: 0;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: -20px;
+          z-index: -1;
+          transform: translateY(-55%);
+          top: 50%;
+          width: 75%;
+          height: 25%;
+          background-color: _palette(accent-alt-light);
+        }
+      }
     }
 
     .button {
