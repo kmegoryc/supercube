@@ -4,6 +4,13 @@ import _ from 'lodash';
 import {safePrefix, markdownify} from '../utils';
 import ActionLink from './ActionLink';
 
+//Hero icons
+import effective from '../../static/icons/effective.svg';
+import easy from '../../static/icons/easy.svg';
+import noChemicals from '../../static/icons/noChemicals.svg';
+import greaterGood from '../../static/icons/greaterGood.svg';
+import portable from '../../static/icons/portable.svg';
+
 export default class SectionHero extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
@@ -31,6 +38,30 @@ export default class SectionHero extends React.Component {
                       ))}
                     </p>
                     }
+                  </div>
+                </div>
+                <div className="grid">
+                  <div className="cell block-icons">
+                    <div className="icon">
+                      <img src={effective}></img>
+                      <h5>Effective</h5>
+                    </div>
+                    <div className="icon">
+                      <img src={easy}></img>
+                      <h5>Easy</h5>
+                    </div>
+                    <div className="icon">
+                      <img src={noChemicals}></img>
+                      <h5>No harsh chemicals or residues</h5>
+                    </div>
+                    <div className="icon">
+                      <img src={greaterGood}></img>
+                      <h5>Made for greater good</h5>
+                    </div>
+                    <div className="icon">
+                      <img src={portable}></img>
+                      <h5>Small and portable</h5>
+                    </div>
                   </div>
                 </div>
               </div>

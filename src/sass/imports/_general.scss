@@ -72,8 +72,9 @@ h4 {
 }
 
 h5 {
-  font-size: $fs-h4;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
 }
 
 h6 {
@@ -267,17 +268,16 @@ a.button {
   box-sizing: border-box;
   color: #fff;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   height: 2.75em;
   line-height: 1.5;
-  padding: 0.5em 30px;
+  padding: 0.5em 15px;
   -webkit-transition: opacity .15s ease-in-out;
   transition: opacity .15s ease-in-out;
 
   &:hover,
   &:focus,
   &:active {
-    opacity: 0.75;
     outline: 0;
   }
 }
@@ -288,14 +288,13 @@ a.button {
 
 .button.large {
   height: 3em;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 a.button.large {
   height: auto;
-  padding-bottom: 0.625em;
-  padding-top: 0.625em;
+  padding-top: 0.5em;
 }
 
 .button.secondary {

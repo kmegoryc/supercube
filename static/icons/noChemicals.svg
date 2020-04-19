@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Styles-&amp;-Assets-approach" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g  transform="translate(-369.000000, -285.000000)">
+            <g id="01_Assets/Icons/creative" transform="translate(369.000000, 285.000000)">
+                <g id="icon_creative">
+                    <g  opacity="0.1" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect  x="0" y="0" width="72" height="72"></rect>
+                    </g>
+                    <rect  fill="#FFD600" fill-rule="nonzero" x="12" y="39" width="18" height="18"></rect>
+                    <path d="M33,19.14 L45,26.07 L45,39.93 L33,46.86 L21,39.93 L21,26.07 L33,19.14 L33,19.14 Z M33,15.69 L18,24.33 L18,41.67 L33,50.31 L48,41.67 L48,24.33 L33,15.69 Z M55.05,58.95 L47.55,51.45 L45.45,53.55 L52.95,61.05 L55.05,58.95 Z M58.92,52.17 L52.92,46.17 L50.79,48.3 L56.79,54.3 L58.92,52.17 Z M48,15 C52.9705627,15 57,19.0294373 57,24 C57,28.9705627 52.9705627,33 48,33 C43.0294373,33 39,28.9705627 39,24 C39,19.0294373 43.0294373,15 48,15 L48,15 Z M48,12 C41.372583,12 36,17.372583 36,24 C36,30.627417 41.372583,36 48,36 C54.627417,36 60,30.627417 60,24 C60,17.372583 54.627417,12 48,12 L48,12 Z"  fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

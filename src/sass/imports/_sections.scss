@@ -20,16 +20,16 @@
   }
 }
 
-.block-preview {
-  margin-bottom: 1.66667rem;
-}
+// .block-preview {
+//   margin-bottom: 1.66667rem;
+// }
 
 .block-buttons {
-  margin-bottom: 0.83333rem;
+  margin-bottom: 0;
 
-  .button {
-    margin: 0 7px 0.83333rem;
-  }
+  // .button {
+  //   margin: 0 7px 0.83333rem;
+  // }
 }
 
 .block-item {
@@ -41,6 +41,7 @@
 }
 
 .hero-block,
+.icon-block,
 .text-block,
 .block-item {
   .cell {
@@ -55,6 +56,7 @@
 @media only screen and (min-width: 801px) {
 
   .hero-block,
+  .icon-block,
   .text-block,
   .block-item {
     .grid {
@@ -79,7 +81,6 @@
       &:only-child {
         margin-left: auto;
         margin-right: auto;
-        max-width: 555px;
         text-align: center;
 
         .underline {
@@ -104,7 +105,21 @@
     }
 
     .block-copy {
-      max-width: 480px;
+      max-width: 555px;
+    }
+
+    .block-icons {
+      max-width: 800px;
+      margin-top: 32px;
+      margin-left: 0 !important;
+      text-align: left !important;
+      display: flex;
+
+      .icon {
+        flex: 1;
+        margin-right: 30px;
+        text-align: center;
+      }
     }
 
     .underline:after {

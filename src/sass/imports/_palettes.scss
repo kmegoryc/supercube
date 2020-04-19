@@ -20,10 +20,17 @@
   input[type="button"],
   input[type="reset"],
   a.button {
-
-    background: _palette(accent-purple);
-    border-color: _palette(accent-purple);
+    background: _palette(accent);
+    border-color: transparent;
+    border-width: 3px;
     color: #fff;
+    transition: background .24s ease-in-out, border-color 1s ease-in-out, color .24s ease-in-out;
+
+    &:hover {
+      background: _palette(accent-alt);
+      border-color: _palette(accent-alt);
+      color: _palette(accent);
+    }
   }
 
   .button.secondary {
@@ -34,6 +41,7 @@
     &:focus,
     &:active {
       background: _palette(accent-purple);
+      border-color: _palette(accent-alt);
       color: #fff;
     }
   }
