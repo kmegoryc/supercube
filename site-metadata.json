@@ -7,10 +7,6 @@
     "has_nav": true,
     "nav_links": [
       {
-        "label": "Home",
-        "url": "/"
-      },
-      {
         "new_window": true,
         "label": "Research",
         "url": "/research",
