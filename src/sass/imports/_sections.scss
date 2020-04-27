@@ -3,11 +3,7 @@
  * ----------------------------------------------------------------------------
  */
 .block-title {
-  margin: 0;
-
-  &:last-child {
-    margin-bottom: 12px;
-  }
+  margin-bottom: 12px;
 }
 
 .block-header {
@@ -20,16 +16,8 @@
   }
 }
 
-// .block-preview {
-//   margin-bottom: 1.66667rem;
-// }
-
 .block-buttons {
   margin-bottom: 0;
-
-  // .button {
-  //   margin: 0 7px 0.83333rem;
-  // }
 }
 
 .block-item {
@@ -47,10 +35,6 @@
   .cell {
     text-align: center;
   }
-
-  .underline:after {
-    display: none;
-  }
 }
 
 .hero-block {
@@ -63,6 +47,14 @@
 
   &--titles {
     margin-bottom: 24px;
+  }
+
+  .block-title {
+    margin-bottom: 0;
+  }
+
+  .block-copy {
+    max-width: 555px;
   }
 
   &--graphic {
@@ -88,6 +80,10 @@
     right: 0;
     top: 45%;
     transform: translateY(-50%);
+
+    @include respond-down($sm) {
+      display: none;
+    }
   }
 }
 
@@ -120,12 +116,6 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-
-        .underline {
-          &:after {
-            display: none;
-          }
-        }
       }
     }
 
@@ -142,27 +132,23 @@
       flex: 5;
     }
 
-    .block-copy {
-      max-width: 555px;
-    }
+    // .block-copy {
+    //   max-width: 555px;
+    // }
 
-    .block-icons {
-      max-width: 800px;
-      margin-top: 32px;
-      margin-left: 0 !important;
-      text-align: left !important;
-      display: flex;
+    // .block-icons {
+    //   max-width: 800px;
+    //   margin-top: 32px;
+    //   margin-left: 0 !important;
+    //   text-align: left !important;
+    //   display: flex;
 
-      .icon {
-        flex: 1;
-        margin-right: 30px;
-        text-align: center;
-      }
-    }
-
-    .underline:after {
-      display: block;
-    }
+    //   .icon {
+    //     flex: 1;
+    //     margin-right: 30px;
+    //     text-align: center;
+    //   }
+    // }
 
     .highlight {
       span {
@@ -606,6 +592,7 @@
 }
 
 .block {
+  position: relative;
 
   &.bg-gray {
     background: _palette(bg-gray);
@@ -631,14 +618,5 @@
     .block-title {
       color: inherit;
     }
-
-    .underline:after {
-      border-color: currentColor;
-    }
   }
-
-  // &.bg-white+&.bg-white,
-  // &.bg-gray+&.bg-gray {
-  //   padding-top: 0;
-  // }
 }

@@ -1,0 +1,69 @@
+$sm: 600px;
+$md: 1023px;
+$lg: 1440px;
+$xl: 1800px;
+
+@mixin respond-up($size) {
+
+  @if $size == sm {
+    @media only screen and (min-width: $size-sm) {
+      @content;
+    }
+  }
+
+  @else if $size == md {
+    @media only screen and (min-width: $size-md) {
+      @content;
+    }
+  }
+
+  @else if $size == lg {
+    @media only screen and (min-width: $size-lg) {
+      @content;
+    }
+  }
+
+  @else if $size == xl {
+    @media only screen and (min-width: $size-xl) {
+      @content;
+    }
+  }
+
+  @else {
+    @media only screen and (min-width: $size) {
+      @content;
+    }
+  }
+}
+
+@mixin respond-down($size) {
+  @if $size == sm {
+    @media only screen and (max-width: ($size-sm - 1px)) {
+      @content;
+    }
+  }
+
+  @else if $size == md {
+    @media only screen and (max-width: ($size-md - 1px)) {
+      @content;
+    }
+  }
+
+  @else if $size == lg {
+    @media only screen and (max-width: ($size-lg - 1px)) {
+      @content;
+    }
+  }
+
+  @else if $size == xl {
+    @media only screen and (max-width: ($size-xl - 1px)) {
+      @content;
+    }
+  }
+
+  @else {
+    @media only screen and (max-width: $size) {
+      @content;
+    }
+  }
+}
