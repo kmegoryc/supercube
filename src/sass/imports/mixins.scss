@@ -1,11 +1,18 @@
-$sm: 600px;
+$xs: 600px;
+$sm: 800px;
 $md: 1023px;
 $lg: 1440px;
 $xl: 1800px;
 
 @mixin respond-up($size) {
 
-  @if $size == sm {
+  @if $size == xs {
+    @media only screen and (min-width: $size-xs) {
+      @content;
+    }
+  }
+
+  @else if $size == sm {
     @media only screen and (min-width: $size-sm) {
       @content;
     }
@@ -37,7 +44,14 @@ $xl: 1800px;
 }
 
 @mixin respond-down($size) {
-  @if $size == sm {
+
+  @if $size == xs {
+    @media only screen and (max-width: $size-xs) {
+      @content;
+    }
+  }
+
+  @else if $size == sm {
     @media only screen and (max-width: ($size-sm - 1px)) {
       @content;
     }

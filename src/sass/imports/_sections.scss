@@ -4,6 +4,24 @@
  */
 .block-title {
   margin-bottom: 12px;
+
+  &.highlight {
+    span {
+      position: relative;
+      z-index: 0;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 4px;
+        z-index: -1;
+        top: -20px;
+        width: 100%;
+        height: 30%;
+        background-color: _palette(accent-alt-light);
+      }
+    }
+  }
 }
 
 .block-header {
@@ -32,8 +50,12 @@
 .icon-block,
 .text-block,
 .block-item {
-  .cell {
-    text-align: center;
+  text-align: left;
+
+  @include respond-down($sm) {
+    .cell {
+      text-align: center;
+    }
   }
 }
 
@@ -81,13 +103,13 @@
     top: 45%;
     transform: translateY(-50%);
 
-    @include respond-down($sm) {
+    @include respond-down($md) {
       display: none;
     }
   }
 }
 
-@media only screen and (min-width: 801px) {
+@include respond-down($md) {
 
   .hero-block,
   .icon-block,
@@ -110,7 +132,6 @@
       flex: 1;
       margin-left: 0.83333rem;
       margin-right: 0.83333rem;
-      text-align: left;
 
       &:only-child {
         margin-left: auto;
@@ -150,24 +171,6 @@
     //   }
     // }
 
-    .highlight {
-      span {
-        position: relative;
-        z-index: 0;
-
-        &:before {
-          content: '';
-          position: absolute;
-          left: 4px;
-          z-index: -1;
-          top: -20px;
-          width: 100%;
-          height: 30%;
-          background-color: _palette(accent-alt-light);
-        }
-      }
-    }
-
     .button {
       margin-left: 0;
       margin-right: 15px;
@@ -200,7 +203,7 @@
     text-align: center;
   }
 
-  @media only screen and (min-width: 741px) {
+  @include respond-down($md) {
     .grid {
       -ms-flex-align: center;
       -webkit-align-items: center;
@@ -292,7 +295,7 @@
   }
 }
 
-@media only screen and (min-width: 741px) {
+@include respond-down($md) {
   .reviews-block {
     .grid {
       display: -webkit-flex;
@@ -417,7 +420,7 @@
   }
 }
 
-@media only screen and (min-width: 940px) {
+@include respond-down($md) {
   .pricing-block {
     .grid {
       display: -webkit-flex;
