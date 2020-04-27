@@ -84,6 +84,7 @@ h6 {
 }
 
 p {
+  color: _palette(text);
   font-size: $fs-p;
   font-family: _font(secondary);
   font-weight: 400;

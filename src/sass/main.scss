@@ -2,7 +2,7 @@
 $font: (primary: ('Brandon Grotesque Black',
     sans-serif,
   ),
-  secondary: ('Open Sans',
+  secondary: ('Montserrat',
     sans-serif,
   ));
 
@@ -18,20 +18,12 @@ $fs-h3-m: $fs-h2-s;
 $fs-h3-s: 20px;
 $fs-h4: 22px;
 $fs-h4-m: 16px;
-// $fs-eyebrow: 14px;
-// $fs-eyebrow-m: 12px;
-// $fs-subhead: 18px;
-// $fs-subhead-m: $fs-h4-m;
 $fs-p: 16px;
-// $fs-p-m: $fs-eyebrow;
-// $fs-footnote: $fs-eyebrow-m;
-// $fs-links: $fs-h4-m;
-// $fs-links-m: $fs-eyebrow;
-// $fs-icons: 19px;
 
 // Palette.
 $palette: (primary: #16116d,
   secondary: darken(#535556, 15%),
+  text: #232323,
   meta: lighten(#535556, 20%),
   border: lighten(#535556, 58%),
   bg: #fff,
