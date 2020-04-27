@@ -8,6 +8,10 @@ import heroSwoosh from '../../static/svgs/hero_swoosh.svg';
 import heroCircle from '../../static/svgs/hero_circle.svg';
 import lineCity from '../../static/svgs/line_city.svg';
 
+if (typeof window === 'undefined') {
+  global.window = {}
+}
+
 window.onscroll = function () {
   const circle = window.document.getElementById('hero-circle');
   const scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
