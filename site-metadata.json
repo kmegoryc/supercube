@@ -1,6 +1,6 @@
 {
   "title": "Supercube",
-  "palette": "purple",
+  "palette": null,
   "header": {
     "title": "Supercube",
     "logo_img": "/images/logo.png",
@@ -14,12 +14,13 @@
         "new_window": true,
         "label": "Research",
         "url": "/research",
-        "primary": true
+        "primary": false
       },
       {
         "new_window": false,
         "label": "Contact",
-        "url": "#contact"
+        "url": "#contact",
+        "primary": true
       }
     ]
   },
