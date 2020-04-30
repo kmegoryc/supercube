@@ -8,12 +8,6 @@
     "has_nav": true,
     "nav_links": [
       {
-        "new_window": true,
-        "label": "Research",
-        "url": "/research",
-        "primary": false
-      },
-      {
         "new_window": false,
         "label": "Contact",
         "url": "#request",
