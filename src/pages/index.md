@@ -41,17 +41,17 @@ sections:
       - title: No harmful chemicals or residues
         content: UV light kills quickly by disrupting DNA in the cells of
           microorganisms, leaving behind no harmful chemicals or residues.
-        image: /images/placeholder.svg
+        image: /images/chemicals.png
         actions: []
       - title: Quick & easy setup
         content: Supercube assembles and calibrates in minutes. It requires no trained
           personnel to assemble and operate.
-        image: /images/placeholder.svg
+        image: /images/time.png
         actions: []
       - title: Small footprint & portable
         content: Supercube's footprint is only 32 x 32 inches. It can be set up close to
           the point of care in a hallway or near a nurse's station.
-        image: /images/placeholder.svg
+        image: /images/measure.png
   - type: section_content
     background: null
     title: Why UV-C?
