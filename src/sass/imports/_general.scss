@@ -226,7 +226,7 @@ select,
 textarea {
   background: #fff;
   border: 1px solid _palette(border);
-  border-radius: 3px;
+  // border-radius: 3px;
   box-shadow: none;
   box-sizing: border-box;
   color: _palette(primary);
@@ -263,24 +263,31 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 a.button {
+  cursor: pointer;
   font-family: _font(primary);
   background: _palette(accent);
   border-radius: 100px;
-  border: 2px solid _palette(accent);
+  border: 2px solid _palette(accent-alt);
   box-sizing: border-box;
-  color: #fff;
+  color: _palette(accent);
   display: inline-block;
   font-size: 18px;
   height: 2.75em;
   line-height: 1.5;
   padding: 0.5em 15px;
-  -webkit-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
+  background: _palette(accent-alt);
+  border-color: transparent;
+  border-width: 3px;
+  transition: background .24s ease-in-out, border-color 1s ease-in-out, color .24s ease-in-out;
+  padding-left: 35px;
+  padding-right: 35px;
 
   &:hover,
   &:focus,
   &:active {
-    outline: 0;
+    background: _palette(accent);
+    border-color: _palette(accent);
+    color: #fff;
   }
 }
 
@@ -290,8 +297,6 @@ a.button {
 
 .button.large {
   height: 3em;
-  padding-left: 35px;
-  padding-right: 35px;
 }
 
 a.button.large {

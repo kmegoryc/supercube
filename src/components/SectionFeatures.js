@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 import { htmlToReact, safePrefix, markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
+import supercubeImages from '../../static/images/supercube_images.png';
 
 export default class SectionFeatures extends React.Component {
   render() {
@@ -13,12 +14,7 @@ export default class SectionFeatures extends React.Component {
         className={
           'block features-block bg-' + _.get(section, 'background') + ' outer'
         }>
-        {/* <iframe
-          id='3f15feea-4efa-4396-860c-dad2c7192481'
-          src='https://www.vectary.com/embed/viewer/v1/viewer.html?model=3f15feea-4efa-4396-860c-dad2c7192481&env=studio1&envRotation=0&autoplay=1&turntable=0.5&showPreloader=1'
-          frameBorder='0'
-          width='100%'
-          height='480'></iframe> */}
+        <img src={supercubeImages} alt="Supercube images" />
         <div className='block-header inner-small'>
           {_.get(section, 'title') && (
             <h2 className='block-title'>{_.get(section, 'title')}</h2>

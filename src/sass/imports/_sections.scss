@@ -27,6 +27,7 @@
 .block-header {
   margin-bottom: 2rem;
   text-align: left;
+  padding-right: 42px;
 }
 
 .block-buttons {
@@ -111,6 +112,10 @@
 }
 
 .features-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .grid {
     flex-wrap: wrap;
   }
@@ -211,6 +216,7 @@
       -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
+      align-items: center;
     }
 
     .block-preview {
