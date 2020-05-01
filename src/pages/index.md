@@ -36,7 +36,7 @@ sections:
         content: Supercube has eight powerful UVC lamps delivering 160 watts of
           ultraviolet irradiation. In minutes the system will achieve > 1J/cm^2
           of exposure, within the CDCs treatment level range.
-        image: /images/placeholder.svg
+        image: /images/graph.png
         actions: []
       - title: No harmful chemicals or residues
         content: UV light kills quickly by disrupting DNA in the cells of
