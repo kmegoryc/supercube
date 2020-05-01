@@ -63,12 +63,6 @@ export default class SectionContact extends React.Component {
                 id='contact-form'
                 className='contact-form'
                 onSubmit={this.handleSubmit}>
-                <p className='screen-reader-text'>
-                  <label>
-                    Don't fill this out if you're human:{' '}
-                    <input name='bot-field' />
-                  </label>
-                </p>
                 <p className='form-row'>
                   <label className='form-label'>Name</label>
                   <input required type='text' placeholder='Your Full Name' name='from_name' className='form-input' />
