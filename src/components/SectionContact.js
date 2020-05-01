@@ -12,15 +12,17 @@ export default class SectionContact extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log(e.target);
 
     const serviceId = 'gmail';
     const templateId = 'template_Qo05Z1L4';
     const userId = 'user_1T878hB4Or5KPTOv21NDd';
+    const successMessage = window.document.getElementById('success-message');
+    const submitButton = window.document.getElementById('submit-button');
 
     emailjs.sendForm(serviceId, templateId, e.target, userId).then(
       (result) => {
-        console.log(result.text);
+        successMessage.classList.remove('hidden');
+        submitButton.disabled = true;
       },
       (error) => {
         console.log(error.text);
@@ -69,23 +71,29 @@ export default class SectionContact extends React.Component {
                 </p>
                 <p className='form-row'>
                   <label className='form-label'>Name</label>
-                  <input type='text' name='from_name' className='form-input' />
+                  <input required type='text' placeholder='Your Full Name' name='from_name' className='form-input' />
+                  <h6 className="required">*Required</h6>
                 </p>
                 <p className='form-row'>
-                  <label className='form-label'>Email address</label>
+                  <label className='form-label'>Email Address</label>
                   <input
+                    required
+                    placeholder='example@gmail.com'
                     type='email'
                     name='from_email'
                     className='form-input'
                   />
+                  <h6 className="required">*Required</h6>
                 </p>
                 <p className='form-row'>
                   <label className='form-label'>Number of units</label>
                   <input
+                    required
                     type='number'
                     name='unit_amount'
                     className='form-input'
                   />
+                  <h6 className="required">*Required</h6>
                 </p>
                 <p className='form-row'>
                   <label className='form-label'>Message</label>
@@ -93,10 +101,11 @@ export default class SectionContact extends React.Component {
                 </p>
                 <input type='hidden' name='form-name' value='contactForm' />
                 <p className='form-row form-submit'>
-                  <button type='submit' className='button'>
+                  <button id='submit-button' type='submit' className='button'>
                     Send Message
                   </button>
                 </p>
+                <p id="success-message" className="form--message hidden">Thank you for your submission! We will get back to you shortly.</p>
               </form>
             </div>
           </div>

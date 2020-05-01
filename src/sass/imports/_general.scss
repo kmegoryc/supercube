@@ -79,8 +79,10 @@ h5 {
 }
 
 h6 {
-  font-size: $fs-h4;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: _font(secondary);
+  margin: 6px 0;
 }
 
 p {
@@ -216,17 +218,32 @@ input[type=radio]+label {
   padding-right: 1em;
 }
 
+.form-label {
+  font-family: _font(primary);
+}
+
+#success-message {
+  display: block;
+  font-weight: bold;
+  color: _palette(accent-green);
+
+  &.hidden {
+    display: none;
+  }
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
 input[type="tel"],
+input[type="number"],
 input[type="search"],
 input[type="url"],
 select,
 textarea {
   background: #fff;
-  border: 1px solid _palette(border);
-  // border-radius: 3px;
+  border: none;
+  border-bottom: 1px solid _palette(form);
   box-shadow: none;
   box-sizing: border-box;
   color: _palette(primary);
@@ -235,13 +252,18 @@ textarea {
   font-weight: normal;
   line-height: 1.5;
   max-width: 100%;
-  padding: 0.5em 15px;
+  padding: 0.5em 15px 0.5em 0;
   vertical-align: baseline;
   width: 100%;
 
   &:focus {
     outline: 0;
   }
+}
+
+textarea {
+  border-radius: 4px;
+  border: 1px solid _palette(form);
 }
 
 input[type="text"],
@@ -351,7 +373,7 @@ a.button.large {
 /* Contact form */
 .contact-form {
   .form-row {
-    margin-bottom: 0.83333em;
+    margin-bottom: 2em;
   }
 
   label {
