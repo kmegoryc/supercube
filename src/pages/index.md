@@ -20,10 +20,11 @@ sections:
       hear stories of nurses cleaning their masks with bleach or harmful
       chemicals and were determined to find a better solution. **UVC inactivates
       viruses quickly with no harmful chemicals**, but you must achieve full
-      coverage at the proper dosage. 
+      coverage at the proper dosage. Supercube’s rotating carousel design
+      ensures even coverage and proper exposure for every mask. 
 
 
-      Supercube’s rotating carousel design ensures even coverage and proper exposure for every mask. **In just a** **few minutes** you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is simple to operate and is priced at a fraction of the cost of similar units. We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
+      **In just a** **few minutes** you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units**. We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
     section_id: why
   - type: section_features
     title: ""
@@ -40,17 +41,17 @@ sections:
       - title: No harmful chemicals or residues
         content: UV light kills quickly by disrupting DNA in the cells of
           microorganisms, leaving behind no harmful chemicals or residues.
-        image: /images/placeholder.svg
+        image: /images/chemicals.png
         actions: []
       - title: Quick & easy setup
         content: Supercube assembles and calibrates in minutes. It requires no trained
           personnel to assemble and operate.
-        image: /images/placeholder.svg
+        image: /images/time.png
         actions: []
       - title: Small footprint & portable
         content: Supercube's footprint is only 32 x 32 inches. It can be set up close to
           the point of care in a hallway or near a nurse's station.
-        image: /images/placeholder.svg
+        image: /images/measure.png
   - type: section_content
     background: null
     title: Why UV-C?
