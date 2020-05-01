@@ -22,11 +22,11 @@ export default class Footer extends React.Component {
                         <Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link>
                       </p>
                       }
-                      {_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline') &&
-                      // <p className="site-description">
-                      //   {_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline')}
-                      // </p>
-                      }
+                      {/* {_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline') &&
+                      <p className="site-description">
+                        {_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline')}
+                      </p>
+                      } */}
                     </div>
                     {((_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav') && _.get(this.props, 'pageContext.site.siteMetadata.footer.nav_links')) || (_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social') && _.get(this.props, 'pageContext.site.siteMetadata.footer.social_links'))) &&
                     <nav className="widget footer-navigation">
@@ -70,7 +70,7 @@ export default class Footer extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="site-info outer">
+              {/* <div className="site-info outer">
                 <div className="inner">
                   {htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content'))}
                   &nbsp;
@@ -78,7 +78,7 @@ export default class Footer extends React.Component {
                     <ActionLink key={action_idx} {...this.props} action={action} />
                   ))}
                 </div>
-              </div>
+              </div> */}
             </footer>
         );
     }
