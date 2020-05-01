@@ -64,6 +64,6 @@ sections:
       available.
 
 
-      Have questions? You can **[email us](mailto:contact@supercubeuv.com)** instead!
+      Have questions? You can email us instead at [contact@supercubeuv.com](mailto:contact@supercubeuv.com)!
 template: landing
 ---
