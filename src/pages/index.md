@@ -15,7 +15,16 @@ sections:
   - type: section_content
     background: null
     title: ""
-    content: ""
+    content: >-
+      Interested in Supercube? We like the enthusiasm! Let us know by filling
+      out this form. We are not yet filling orders, but by sending us your
+      information, we will make you a priority as soon as units become
+      available.
+
+
+
+
+      Interested in Supercube? We like the enthusiasm! Let us know by filling out this form. We are not yet filling orders, but by sending us your information, we will make you a priority as soon as units become available.
     section_id: why
   - type: section_features
     title: ""
