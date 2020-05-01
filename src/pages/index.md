@@ -52,7 +52,7 @@ sections:
       reproduce thus inactivating the microorganism. At the same time, UVC
       enacts minimal damage to PPE, allowing you to extend use in crisis
       situations.
-    image: /images/uvc.png
+    image: /images/uvc_circle.png
   - type: section_contact
     background: null
     title: ""
