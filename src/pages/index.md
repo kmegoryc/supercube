@@ -59,7 +59,7 @@ sections:
     section_id: request
     content: >-
       Interested in Supercube? We like the enthusiasm! Let us know by filling
-      out the form below. We are not yet filling orders, but by sending us your
+      out this form. We are not yet filling orders, but by sending us your
       information, we will make you a priority as soon as units become
       available.
 
