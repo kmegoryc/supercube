@@ -105,8 +105,8 @@ export default class SectionContact extends React.Component {
                     Send Message
                   </button>
                 </p>
-                <p id="success-message" className="form--message hidden">Thank you for your submission! We will get back to you shortly.</p>
               </form>
+              <p id="success-message" className="form--message hidden">Thank you for your submission! We will get back to you shortly.</p>
             </div>
           </div>
         </div>
