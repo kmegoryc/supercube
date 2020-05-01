@@ -285,6 +285,7 @@ a.button {
   &:hover,
   &:focus,
   &:active {
+    outline: none;
     background: _palette(accent);
     border-color: _palette(accent);
     color: #fff;

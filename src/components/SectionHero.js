@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {markdownify} from '../utils';
 import ActionLink from './ActionLink';
 
-import supercubeCutout from '../../static/images/supercube_cutout_shapes.png';
+import supercubeCutout from '../../static/images/supercube_cutout_shapes_round.png';
 import heroSwoosh from '../../static/images/background_swoosh.png';
 import heroCircle from '../../static/svgs/hero_circle.svg';
 
@@ -15,7 +15,7 @@ if (typeof window === 'undefined') {
 window.onscroll = function () {
   const circle = window.document.getElementById('hero-circle');
   const scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  const neutralWidth = window.innerWidth * .3;
+  const neutralWidth = window.innerWidth * .2;
   if (circle && scrollTop < 375) {
     circle.style.width = `${neutralWidth + scrollTop * .5}px`
   }
