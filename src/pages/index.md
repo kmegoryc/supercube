@@ -14,7 +14,7 @@ sections:
         primary: true
   - type: section_content
     background: null
-    title: ""
+    title: Why Supercube?
     content: >-
       Interested in Supercube? We like the enthusiasm! Let us know by filling
       out this form. We are not yet filling orders, but by sending us your
