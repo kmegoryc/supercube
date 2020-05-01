@@ -83,6 +83,7 @@ export default class SectionContact extends React.Component {
                   <label className='form-label'>Number of units</label>
                   <input
                     required
+                    placeholder='1'
                     type='number'
                     name='unit_amount'
                     className='form-input'
