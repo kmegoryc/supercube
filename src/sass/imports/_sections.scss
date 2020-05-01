@@ -49,7 +49,9 @@
 
   @include respond-down($sm) {
     .cell {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }
@@ -81,7 +83,9 @@
     position: absolute;
     top: 280px;
     width: 100%;
+    max-height: 700px;
     left: 0;
+    margin-left: -12px;
     z-index: -2;
   }
 
@@ -95,14 +99,13 @@
   }
 
   &--image {
-    width: 55%;
-    position: absolute;
-    right: 0;
-    top: 45%;
-    transform: translateY(-50%);
+    max-width: 300px;
+    margin: 24px auto;
 
-    @include respond-down($md) {
-      display: none;
+    @include respond-up($md) {
+      position: absolute;
+      top: 100px;
+      max-width: 450px;
     }
   }
 }
@@ -117,13 +120,39 @@
     margin-bottom: 48px;
   }
 
+  .block-title {
+    max-width: 300px;
+    min-height: 76  px;
+  }
+
   .block-item {
-    flex: 1 0 35%;
-    padding-right: 48px;
+    width: calc(50% - 125px);
+
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+
+    @include respond-down($md) {
+      width: 100%;
+    }
+
+    &.left {
+      @include respond-down($md) {
+        padding-right: 0;
+      }
+    }
+
+    &.right {
+      padding-left: 125px;
+
+      @include respond-down($md) {
+        padding-left: 0;
+      }
+    }
   }
 }
 
-@include respond-up($sm) {
+@include respond-up($md) {
 
   .hero-block,
   .icon-block,
@@ -168,24 +197,6 @@
       -ms-flex: 5;
       flex: 5;
     }
-
-    // .block-copy {
-    //   max-width: 555px;
-    // }
-
-    // .block-icons {
-    //   max-width: 800px;
-    //   margin-top: 32px;
-    //   margin-left: 0 !important;
-    //   text-align: left !important;
-    //   display: flex;
-
-    //   .icon {
-    //     flex: 1;
-    //     margin-right: 30px;
-    //     text-align: center;
-    //   }
-    // }
 
     .button {
       margin-left: 0;
@@ -241,6 +252,7 @@
       -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
       flex: 1 1 auto;
+      display: flex;
     }
 
     .block-buttons {

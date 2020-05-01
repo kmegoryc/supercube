@@ -13,12 +13,12 @@ export default class SectionFeatures extends React.Component {
         className={
           'block features-block bg-' + _.get(section, 'background') + ' outer'
         }>
-        <iframe
+        {/* <iframe
           id='3f15feea-4efa-4396-860c-dad2c7192481'
           src='https://www.vectary.com/embed/viewer/v1/viewer.html?model=3f15feea-4efa-4396-860c-dad2c7192481&env=studio1&envRotation=0&autoplay=1&turntable=0.5&showPreloader=1'
           frameBorder='0'
           width='100%'
-          height='480'></iframe>
+          height='480'></iframe> */}
         <div className='block-header inner-small'>
           {_.get(section, 'title') && (
             <h2 className='block-title'>{_.get(section, 'title')}</h2>
@@ -33,7 +33,8 @@ export default class SectionFeatures extends React.Component {
           <div className='inner'>
             <div className='grid'>
               {_.map(_.get(section, 'features'), (feature, feature_idx) => (
-                <div key={feature_idx} className='block-item'>
+                <div key={feature_idx} className= {feature_idx % 2 == 0 ? 'block-item left' : 'block-item right'}>
+                  <p></p>
                   {_.get(feature, 'image') && (
                     <img
                       className='features--icon'

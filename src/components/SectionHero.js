@@ -4,9 +4,9 @@ import _ from 'lodash';
 import {markdownify} from '../utils';
 import ActionLink from './ActionLink';
 
-import heroSwoosh from '../../static/svgs/hero_swoosh.svg';
+import supercubeCutout from '../../static/images/supercube_cutout_shapes.png';
+import heroSwoosh from '../../static/images/background_swoosh.png';
 import heroCircle from '../../static/svgs/hero_circle.svg';
-import lineCity from '../../static/svgs/line_city.svg';
 
 if (typeof window === 'undefined') {
   global.window = {}
@@ -28,9 +28,6 @@ export default class SectionHero extends React.Component {
         <section id={_.get(section, 'section_id')} className="block hero-block bg-accent outer">
           <div className="inner">
             <div className="grid">
-              <div className="cell hero-block--image">
-                <img src={lineCity} alt="One line city art graphic" />
-              </div>
               <div className="cell block-content">
                 <div className="hero-block--titles">
                   <h1 className="block-title highlight"><span>PROTECT</span></h1>
@@ -46,6 +43,9 @@ export default class SectionHero extends React.Component {
                   ))}
                 </p>
                 }
+              </div>
+              <div className="cell hero-block--image">
+                <img src={supercubeCutout} alt="Supercube cutout" />
               </div>
             </div>
           </div>
