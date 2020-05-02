@@ -67,12 +67,11 @@ sections:
     title: ""
     section_id: request
     content: >-
-      Interested in Supercube? We like the enthusiasm! Let us know by filling
-      out this form. We are not yet filling orders, but by sending us your
-      information, we will make you a priority as soon as units become
-      available.
+      Interested in Supercube? Let us know by filling out this form. We are
+      currently rolling out our pilot program to area hospitals and are
+      accepting preorders.
 
 
-      Have questions? You can email us instead at [contact@supercubeuv.com](mailto:contact@supercubeuv.com).
+      Have questions? Shoot us an email at [contact@supercubeuv.com](mailto:contact@supercubeuv.com).
 template: landing
 ---
