@@ -79,15 +79,17 @@ export default class SectionContact extends React.Component {
                   />
                   <h6 className="required">*Required</h6>
                 </p>
-                {/* <p className='form-row'>
+                <p className='form-row'>
                   <label className='form-label'>Number of units</label>
                   <input
+                    required
                     placeholder='1'
                     type='number'
                     name='unit_amount'
                     className='form-input'
                   />
-                </p> */}
+                  <h6 className="required">*Required</h6>
+                </p>
                 <p className='form-row'>
                   <label className='form-label'>Message</label>
                   <textarea name='message' className='form-textarea' rows='7' />
