@@ -4,7 +4,7 @@ sections:
   - type: section_hero
     title: Protect from COVID-19
     section_id: hero
-    content: No healthcare worker should have to reuse contaminated PPE. Supercube
+    content: No essential workers should have to reuse contaminated PPE. Supercube™
       is the world’s first quick and portable PPE decontamination unit.
     image: ""
     actions:
@@ -14,13 +14,13 @@ sections:
         primary: true
   - type: section_content
     background: null
-    title: Why Supercube?
+    title: Why Supercube™?
     content: >-
       The extended use of personal protective equipment puts workers at risk. We
       hear stories of nurses cleaning their masks with bleach or harmful
       chemicals and were determined to find a better solution. **UVC inactivates
       viruses quickly with no harmful chemicals**, but you must achieve full
-      coverage at the proper dosage. Supercube’s rotating carousel design
+      coverage at the proper dosage. Supercube's rotating carousel design
       ensures even coverage and proper exposure for every mask. 
 
 
