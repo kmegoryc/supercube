@@ -72,6 +72,6 @@ sections:
       accepting preorders.
 
 
-      Have questions? Shoot us an email at [](mailto:chris@supercubeuv.com)[chrisbigelow25@gmail.com](chrisbigelow25@gmail.com).
+      Have questions? Shoot us an email at **[contact@supercubeuv.com](contact@supercubeuv.com)**.
 template: landing
 ---
