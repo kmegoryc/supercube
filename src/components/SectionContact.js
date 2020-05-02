@@ -63,22 +63,23 @@ export default class SectionContact extends React.Component {
                 id='contact-form'
                 className='contact-form'
                 onSubmit={this.handleSubmit}>
-                <p className='form-row'>
+                <div className='form-row'>
                   <label className='form-label'>Name</label>
                   <input required type='text' placeholder='Your Full Name' name='from_name' className='form-input' />
                   <h6 className="required">*Required</h6>
-                </p>
-                <p className='form-row'>
+                </div>
+                <div className='form-row'>
                   <label className='form-label'>Number of units</label>
                   <input
                     required
+                    placeholder='1'
                     type='number'
                     name='unit_amount'
                     className='form-input'
                   />
                   <h6 className="required">*Required</h6>
-                </p>
-                <p className='form-row'>
+                </div>
+                <div className='form-row'>
                   <label className='form-label'>Email Address</label>
                   <input
                     required
@@ -88,17 +89,17 @@ export default class SectionContact extends React.Component {
                     className='form-input'
                   />
                   <h6 className="required">*Required</h6>
-                </p>
-                <p className='form-row'>
+                </div>
+                <div className='form-row'>
                   <label className='form-label'>Message</label>
                   <textarea name='message' className='form-textarea' rows='7' />
-                </p>
+                </div>
                 <input type='hidden' name='form-name' value='contactForm' />
-                <p className='form-row form-submit'>
+                <div className='form-row form-submit'>
                   <button id='submit-button' type='submit' className='button'>
                     Send Message
                   </button>
-                </p>
+                </div>
               </form>
               <p id="success-message" className="form--message hidden">Thank you for your submission! We will get back to you shortly.</p>
             </div>
