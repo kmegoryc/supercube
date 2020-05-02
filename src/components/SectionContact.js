@@ -69,23 +69,22 @@ export default class SectionContact extends React.Component {
                   <h6 className="required">*Required</h6>
                 </p>
                 <p className='form-row'>
+                  <label className='form-label'>Number of units</label>
+                  <input
+                    required
+                    type='number'
+                    name='unit_amount'
+                    className='form-input'
+                  />
+                  <h6 className="required">*Required</h6>
+                </p>
+                <p className='form-row'>
                   <label className='form-label'>Email Address</label>
                   <input
                     required
                     placeholder='example@gmail.com'
                     type='email'
                     name='from_email'
-                    className='form-input'
-                  />
-                  <h6 className="required">*Required</h6>
-                </p>
-                <p className='form-row'>
-                  <label className='form-label'>Number of units</label>
-                  <input
-                    required
-                    placeholder='1'
-                    type='number'
-                    name='unit_amount'
                     className='form-input'
                   />
                   <h6 className="required">*Required</h6>
