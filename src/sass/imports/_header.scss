@@ -7,6 +7,7 @@
   color: _palette(secondary);
   padding-bottom: 1.33333em;
   padding-top: 1.33333em;
+  margin-bottom: -87px;
 }
 
 .site-header-inside {
@@ -55,6 +56,7 @@
   }
 
   .menu-item {
+    color: #fff;
     display: inline-block;
     font-size: 16px;
     line-height: 1.5;
@@ -94,7 +96,7 @@
 @supports (position: sticky) or (position: -webkit-sticky) {
   @media only screen and (min-width: 801px) {
     .site-header {
-      background: #fff;
+      background: _palette(background-dark);
       position: -webkit-sticky;
       position: sticky;
       top: 0;
