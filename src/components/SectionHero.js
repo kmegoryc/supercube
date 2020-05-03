@@ -4,28 +4,15 @@ import _ from 'lodash';
 import {markdownify} from '../utils';
 import ActionLink from './ActionLink';
 
-import supercubeCutout from '../../static/images/supercube_cutout_shapes_round.png';
-import heroSwoosh from '../../static/images/background_swoosh.png';
-import heroCircle from '../../static/svgs/hero_circle.svg';
-
-if (typeof window === 'undefined') {
-  global.window = {}
-}
-
-window.onscroll = function () {
-  const circle = window.document.getElementById('hero-circle');
-  const scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  const neutralWidth = window.innerWidth * .2;
-  if (circle && scrollTop < 375) {
-    circle.style.width = `${neutralWidth + scrollTop * .5}px`
-  }
-}
+import supercubeProduct from '../../static/images/supercube_shadow.jpg';
+import supercubeProductStreched from '../../static/images/supercube_shadow_stretched.jpg';
+import bottomSwoosh from '../../static/svgs/bottom_swoosh.svg';
 
 export default class SectionHero extends React.Component {
     render() {
       let section = _.get(this.props, 'section');
       return (
-        <section id={_.get(section, 'section_id')} className="block hero-block bg-accent outer">
+        <section id={_.get(section, 'section_id')} className="block hero-block outer-small inverted">
           <div className="inner">
             <div className="grid">
               <div className="cell block-content">
@@ -45,12 +32,11 @@ export default class SectionHero extends React.Component {
                 }
               </div>
               <div className="cell hero-block--image">
-                <img src={supercubeCutout} alt="Supercube cutout" />
+                <img src={supercubeProductStreched} alt="Supercube product" />
               </div>
             </div>
           </div>
-          <img id="hero-circle" className="hero-block--circle" src={heroCircle} alt="Hero Circle Graphic" aria-hidden="true" />
-          <img className="hero-block--graphic" src={heroSwoosh} alt="Hero Swoosh Graphic" aria-hidden="true" />
+          <img className="hero-block--graphic" src={bottomSwoosh} alt="Hero Swoosh Graphic" aria-hidden="true" />
         </section>
       );
     }
