@@ -36,11 +36,16 @@ export default class Body extends React.Component {
             name='viewport'
             content='width=device-width, initialScale=1.0'
           />
+          <meta name='twitter:card' content='summary' />
           <title>
             {_.get(this.props, 'pageContext.site.siteMetadata.title')}
           </title>
           <meta
             property='og:title'
+            content={_.get(this.props, 'pageContext.site.siteMetadata.title')}
+          />
+          <meta
+            property='twitter:title'
             content={_.get(this.props, 'pageContext.site.siteMetadata.title')}
           />
           <meta
@@ -67,7 +72,18 @@ export default class Body extends React.Component {
             )}
           />
           <meta
+            property='twitter:description'
+            content={_.get(
+              this.props,
+              'pageContext.site.siteMetadata.description'
+            )}
+          />
+          <meta
             property='og:image'
+            content={_.get(this.props, 'pageContext.site.siteMetadata.image')}
+          />
+          <meta
+            property='twitter:image'
             content={_.get(this.props, 'pageContext.site.siteMetadata.image')}
           />
           <meta name='google' content='notranslate' />
