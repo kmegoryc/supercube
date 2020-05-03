@@ -43,6 +43,15 @@ $palette: (primary: #16116d,
   background-dark: #1A1A1A,
 );
 
+.animation-hidden {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+
+  &.animation-show {
+    opacity: 1;
+  }
+}
+
 @import 'imports/functions';
 @import 'imports/mixins';
 @import 'imports/reset';
