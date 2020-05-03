@@ -4,7 +4,6 @@ import _ from 'lodash';
 import {markdownify} from '../utils';
 import ActionLink from './ActionLink';
 
-import supercubeProduct from '../../static/images/supercube_shadow.jpg';
 import supercubeProductStreched from '../../static/images/supercube_shadow_stretched.jpg';
 import bottomSwoosh from '../../static/svgs/bottom_swoosh.svg';
 
