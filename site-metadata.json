@@ -11,7 +11,7 @@
         "new_window": false,
         "label": "Contact",
         "url": "#request",
-        "primary": true
+        "primary": false
       }
     ]
   },
