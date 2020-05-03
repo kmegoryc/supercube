@@ -1,19 +1,19 @@
 {
   "title": "Supercube",
   "description": "No essential workers should have to reuse contaminated PPE. Supercube™ is the world’s first quick and portable PPE decontamination unit.",
+  "url": "https://www.supercubeuv.com/",
+  "image": "/images/logo_meta.png",
   "palette": null,
   "header": {
     "title": "Supercube",
     "logo_img": "/images/supercube_bold_white.png",
     "has_nav": true,
-    "nav_links": [
-      {
-        "new_window": false,
-        "label": "Contact",
-        "url": "#request",
-        "primary": false
-      }
-    ]
+    "nav_links": [{
+      "new_window": false,
+      "label": "Contact",
+      "url": "#request",
+      "primary": false
+    }]
   },
   "footer": {
     "subscribe_title": "Subscribe",

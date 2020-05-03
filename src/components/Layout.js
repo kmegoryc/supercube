@@ -31,6 +31,11 @@ export default class Body extends React.Component {
     return (
       <React.Fragment>
         <Helmet>
+          <meta charSet='utf-8' />
+          <meta
+            name='viewport'
+            content='width=device-width, initialScale=1.0'
+          />
           <title>
             {_.get(this.props, 'pageContext.site.siteMetadata.title')}
           </title>
@@ -38,10 +43,14 @@ export default class Body extends React.Component {
             property='og:title'
             content={_.get(this.props, 'pageContext.site.siteMetadata.title')}
           />
-          <meta charSet='utf-8' />
           <meta
-            name='viewport'
-            content='width=device-width, initialScale=1.0'
+            property='og:site_name'
+            content={_.get(this.props, 'pageContext.site.siteMetadata.title')}
+          />
+          <meta property='og:type' content='website' />
+          <meta
+            property='og:url'
+            content={_.get(this.props, 'pageContext.site.siteMetadata.url')}
           />
           <meta
             name='description'
@@ -57,6 +66,10 @@ export default class Body extends React.Component {
               'pageContext.site.siteMetadata.description'
             )}
           />
+          <meta
+            property='og:image'
+            content={_.get(this.props, 'pageContext.site.siteMetadata.image')}
+          />
           <meta name='google' content='notranslate' />
           <link
             href='https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800'
@@ -64,10 +77,11 @@ export default class Body extends React.Component {
           />
           <link
             href='https://fonts.googleapis.com/css2?family=Montserrat&display=swap'
-            rel='stylesheet'></link>
+            rel='stylesheet'
+          />
           <link
             rel='shortcut icon'
-            href='/images/logo-meta.png'
+            href='/images/logo-icon.png'
             type='image/x-icon'
           />
           {/* TODO: Uncomment when deploying app */}

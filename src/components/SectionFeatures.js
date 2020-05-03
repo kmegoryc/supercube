@@ -16,7 +16,7 @@ export default class SectionFeatures extends React.Component {
   }
 
   async componentDidMount() {
-    this.player = new Player('vmware-post', {
+    this.player = new Player('supercube_news', {
       id: '414406777',
       width: '640px',
       height: '360px',
@@ -36,11 +36,12 @@ export default class SectionFeatures extends React.Component {
 
   render() {
     let section = _.get(this.props, 'section');
+    const readArticle = "Read WDAY's full article on Supercube™ ";
     return (
       <div>
         <section className='block video-block outer'>
           <div className='inner'>
-            <div className='video-block'>
+            <div className='video-container'>
               <img
                 className='video-icon show'
                 onClick={this.handlePlay}
@@ -53,7 +54,17 @@ export default class SectionFeatures extends React.Component {
                 alt='Supercube news poster'
                 onClick={this.handlePlay}
               />
-              <div id='vmware-post'></div>
+              <div id='supercube_news'></div>
+              <p className='center'>
+                {readArticle}
+                <a
+                  rel='noreferrer noopener'
+                  href='https://www.inforum.com/newsmd/coronavirus/6466043-Fergus-Falls-engineers-create-mask-decontamination-device'
+                  target='_blank'>
+                  here
+                </a>
+                .
+              </p>
             </div>
           </div>
         </section>

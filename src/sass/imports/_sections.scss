@@ -65,7 +65,7 @@
 }
 
 .video-block {
-  .video-block {
+  .video-container {
     position: relative;
     width: 640px;
     height: 360px;
@@ -80,6 +80,13 @@
       width: 320px;
       height: 180px;
     }
+
+    &:hover {
+      .video-icon {
+        width: 120px;
+      }
+    }
+
   }
 
   .video-icon {
@@ -91,7 +98,7 @@
     top: 50%;
     cursor: pointer;
     visibility: hidden;
-    transition: opacity 0.24s ease-in-out;
+    transition: opacity .24s ease-in-out, width .24s ease-in-out;
 
     &.show {
       opacity: 1;
