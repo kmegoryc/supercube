@@ -34,8 +34,8 @@ sections:
     features:
       - title: Reliable results
         content: Supercube has eight powerful UVC lamps delivering 160 watts of
-          ultraviolet irradiation. In minutes the system will achieve > 1J/cm^2
-          of exposure, within the CDCs treatment level range.
+          ultraviolet irradiation. In minutes the system will achieve >
+          1J/cm<sup>2</sup> of exposure, within the CDCs treatment level range.
         image: /images/graph.png
         actions: []
       - title: No harmful chemicals or residues
