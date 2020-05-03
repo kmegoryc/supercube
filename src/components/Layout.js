@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import _ from 'lodash';
+import reveal from '../../static/js/utils/reveal-elements';
 import '../sass/main.scss';
 
 //import {safePrefix} from '../utils';
