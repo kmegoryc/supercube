@@ -70,6 +70,16 @@
     width: 640px;
     height: 360px;
     margin: 0 auto;
+
+    @include respond-down($md) {
+      width: 426px;
+      height: 240px;
+    }
+
+    @include respond-down($sm) {
+      width: 320px;
+      height: 180px;
+    }
   }
 
   .video-icon {
