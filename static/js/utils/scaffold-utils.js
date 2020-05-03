@@ -87,7 +87,7 @@ export const clamp = (val, min, max) => Math.max(min, Math.min(val, max));
 export const mapRange = (value, inMin, inMax, outMin, outMax) =>
   (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
 
-const div = document.createElement('div');
+const div = window.document.createElement('div');
 const prefixes = ['Webkit', 'Moz', 'O', 'ms'];
 export const prefixStyle = prop => {
   const style = div.style;
