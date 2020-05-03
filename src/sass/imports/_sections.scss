@@ -38,7 +38,7 @@
 .block-item {
   text-align: left;
 
-  @include respond-down($sm) {
+  @include respond-down($md) {
     .cell {
       align-items: center;
       display: flex;
@@ -207,7 +207,7 @@
   }
 
   .block-item {
-    width: calc(35%);
+    width: 35%;
 
     &:not(:last-child) {
       margin-bottom: 64px;
