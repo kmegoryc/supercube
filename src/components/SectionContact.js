@@ -40,7 +40,7 @@ export default class SectionContact extends React.Component {
         }>
         <div className='inner'>
           <div className='grid'>
-            <div className='block-header inner-small'>
+            <div className='block-header inner'>
               <div className='hero-block--titles'>
                 <h2 className='block-title highlight'>
                   <span>request</span>
@@ -54,7 +54,7 @@ export default class SectionContact extends React.Component {
               )}
               {markdownify(_.get(section, 'content'))}
             </div>
-            <div className='block-content inner-medium'>
+            <div className='block-content inner'>
               <form
                 name='contactForm'
                 // method='POST'
@@ -65,8 +65,14 @@ export default class SectionContact extends React.Component {
                 onSubmit={this.handleSubmit}>
                 <div className='form-row'>
                   <label className='form-label'>Name</label>
-                  <input required type='text' placeholder='Your Full Name' name='from_name' className='form-input' />
-                  <h6 className="required">*Required</h6>
+                  <input
+                    required
+                    type='text'
+                    placeholder='Your Full Name'
+                    name='from_name'
+                    className='form-input'
+                  />
+                  <h6 className='required'>*Required</h6>
                 </div>
                 <div className='form-row'>
                   <label className='form-label'>Email Address</label>
@@ -77,7 +83,7 @@ export default class SectionContact extends React.Component {
                     name='from_email'
                     className='form-input'
                   />
-                  <h6 className="required">*Required</h6>
+                  <h6 className='required'>*Required</h6>
                 </div>
                 <div className='form-row'>
                   <label className='form-label'>Number of units</label>
@@ -88,7 +94,7 @@ export default class SectionContact extends React.Component {
                     name='unit_amount'
                     className='form-input'
                   />
-                <h6 className="required">*Required</h6>
+                  <h6 className='required'>*Required</h6>
                 </div>
                 <div className='form-row'>
                   <label className='form-label'>Message</label>
@@ -101,7 +107,9 @@ export default class SectionContact extends React.Component {
                   </button>
                 </div>
               </form>
-              <p id="success-message" className="form--message hidden">Thank you for your submission! We will get back to you shortly.</p>
+              <p id='success-message' className='form--message hidden'>
+                Thank you for your submission! We will get back to you shortly.
+              </p>
             </div>
           </div>
         </div>

@@ -12,6 +12,10 @@
 
 .outer {
   padding: 4.16667rem 4vw 3.33333rem;
+
+  @include respond-down($md) {
+    padding: 2rem 4vw 2rem;
+  }
 }
 
 .inner {

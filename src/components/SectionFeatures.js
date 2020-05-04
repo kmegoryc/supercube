@@ -11,17 +11,20 @@ import supercubeNewsPoster from '../../static/images/supercube_news.png';
 export default class SectionFeatures extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isPlayed: false };
+    this.state = {
+      isPlayed: false,
+    };
     this.handlePlay = this.handlePlay.bind(this);
   }
 
   async componentDidMount() {
-    this.player = new Player('supercube_news', {
+    this.player = new Player('supercube-news', {
       id: '414406777',
-      width: '640px',
-      height: '360px',
       allowfullscreen: true,
       frameborder: 0,
+      byline: 0,
+      title: 0,
+      portrait: 0,
     });
   }
 
@@ -42,19 +45,20 @@ export default class SectionFeatures extends React.Component {
         <section className='block video-block outer'>
           <div className='inner'>
             <div className='video-container'>
-              <img
-                className='video-icon show'
-                onClick={this.handlePlay}
-                src={playIcon}
-                alt='Play video'
-              />
-              <img
-                className='video-poster show'
-                src={supercubeNewsPoster}
-                alt='Supercube news poster'
-                onClick={this.handlePlay}
-              />
-              <div id='supercube_news'></div>
+              <div id='supercube-news'>
+                <img
+                  className='video-icon show'
+                  onClick={this.handlePlay}
+                  src={playIcon}
+                  alt='Play video'
+                />
+                <img
+                  className='video-poster show'
+                  src={supercubeNewsPoster}
+                  alt='Supercube news poster'
+                  onClick={this.handlePlay}
+                />
+              </div>
               <p className='center'>
                 {readArticle}
                 <a
@@ -75,7 +79,7 @@ export default class SectionFeatures extends React.Component {
           }>
           <div className='block-header inner-small'>
             {_.get(section, 'title') && (
-              <h2 className='block-title'>{_.get(section, 'title')}</h2>
+              <h2 className='block-title'> {_.get(section, 'title')} </h2>
             )}
             {_.get(section, 'subtitle') && (
               <p className='block-subtitle'>
@@ -98,7 +102,7 @@ export default class SectionFeatures extends React.Component {
                     )}
                     <div className='block-content'>
                       <div className='block-title'>
-                        <h3>{_.get(feature, 'title')}</h3>
+                        <h3> {_.get(feature, 'title')} </h3>
                       </div>
                       <div className='block-copy'>
                         {markdownify(_.get(feature, 'content'))}
