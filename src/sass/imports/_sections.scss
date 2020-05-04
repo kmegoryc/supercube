@@ -173,6 +173,10 @@
 
   &--titles {
     margin-bottom: 24px;
+    
+    @include respond-down($md) {
+      text-align: center;
+    }
   }
 
   .block-copy {

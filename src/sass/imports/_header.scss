@@ -3,16 +3,14 @@
  * ----------------------------------------------------------------------------
  */
 .site-header {
-  background: #fff;
+  background: _palette(background-dark);
   color: _palette(secondary);
   padding-bottom: 1.33333em;
   padding-top: 1.33333em;
   margin-bottom: -87px;
 
   @include respond-down($md) {
-    //TODO: Re-add mobile menu when more pages are added
     margin-bottom: 0;
-    display: none;
   }
 }
 
