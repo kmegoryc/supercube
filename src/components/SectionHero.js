@@ -16,8 +16,8 @@ export default class SectionHero extends React.Component {
             <div className="grid">
               <div className="cell block-content">
                 <div className="hero-block--titles">
-                  <h1 className="block-title highlight"><span>PROTECT</span></h1>
-                  <h3 className="block-title">YOUR WORKERS <br/> FROM COVID-19</h3>
+                  <h1 className="block-title highlight"><span>A BETTER WAY</span></h1>
+                  <h3 className="block-title">TO REUSE MASKS</h3>
                 </div>
                 <div className="block-copy">
                   {markdownify(_.get(section, 'content'))}
