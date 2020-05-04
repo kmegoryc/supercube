@@ -678,6 +678,11 @@
     margin-bottom: 1.66667rem;
   }
 
+  .block-header,
+  .block-content {
+    flex: 1 1 100%;
+  }
+
   &:only-child {
     .block-header {
       max-width: 750px;

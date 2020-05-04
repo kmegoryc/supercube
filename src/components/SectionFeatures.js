@@ -92,7 +92,6 @@ export default class SectionFeatures extends React.Component {
               <div className='grid'>
                 {_.map(_.get(section, 'features'), (feature, feature_idx) => (
                   <div key={feature_idx} className='block-item'>
-                    <p></p>
                     {_.get(feature, 'image') && (
                       <img
                         className='features--icon'
