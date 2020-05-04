@@ -17,7 +17,7 @@ sections:
     title: Why Supercube™?
     content: >-
       The extended use of personal protective equipment puts workers at risk. We
-      hear stories of nurses cleaning their masks with bleach or harmful
+      heard stories of nurses cleaning their masks with bleach or harmful
       chemicals and were determined to find a better solution. **UVC inactivates
       viruses quickly with no harmful chemicals**, but you must achieve full
       coverage at the proper dosage. Supercube's rotating carousel design
@@ -35,7 +35,7 @@ sections:
       - title: Reliable results
         content: Supercube has eight powerful UVC lamps delivering 160 watts of
           ultraviolet irradiation. In minutes the system will achieve >
-          1J/cm<sup>2</sup> of exposure, within the CDCs treatment level range.
+          1J/cm<sup>2</sup> of exposure, within the CDC's treatment level range.
         image: /images/graph.png
         actions: []
       - title: No harmful chemicals or residues
