@@ -20,11 +20,11 @@ sections:
       heard stories of nurses cleaning their masks with bleach or harmful
       chemicals and were determined to find a better solution. **UVC inactivates
       viruses quickly with no harmful chemicals**, but you must achieve full
-      coverage at the proper dosage. Supercube's rotating carousel design
-      ensures even coverage and proper exposure for every mask. 
+      coverage at the proper dosage. Our rotating carousel design ensures even
+      coverage and proper exposure for every mask. 
 
 
-      You can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units***.* We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
+      With Supercube you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units***.* We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
     section_id: why
   - type: section_features
     title: ""
