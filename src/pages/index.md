@@ -24,7 +24,10 @@ sections:
       ensures even coverage and proper exposure for every mask. 
 
 
-      **In just a** **few minutes** you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units**. We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
+      **In as little as 5 minutes*** you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units**. We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
+
+
+      \*Pro model, standard model time is ~40 minutes.
     section_id: why
   - type: section_features
     title: ""
@@ -33,9 +36,18 @@ sections:
     background: null
     features:
       - title: Reliable results
-        content: Supercube has eight powerful UVC lamps delivering 160 watts of
-          ultraviolet irradiation. In minutes the system will achieve >
-          1J/cm<sup>2</sup> of exposure, within the CDC's treatment level range.
+        content: >-
+          Supercube has eight powerful UVC lamps delivering 160 watts of
+          ultraviolet irradiation. In 40 minutes the system will achieve >
+          1J/cm<sup>2</sup> of exposure, within the CDC's treatment level
+          range.*
+
+
+
+
+
+
+          \*Faster cycle time possible with Pro model.
         image: /images/graph.png
         actions: []
       - title: No harmful chemicals or residues
