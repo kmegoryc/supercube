@@ -76,9 +76,9 @@ sections:
     title: ""
     section_id: request
     content: >-
-      Interested in Supercube? Let us know by filling out this form. We are
-      currently rolling out our pilot program to area hospitals and are
-      accepting preorders.
+      Interested in Supercube? Let us know by filling out this form and we'll
+      contact you within 24 hours. We are currently rolling out our pilot
+      program to U.S. hospitals and are accepting preorders.
 
 
       Have questions? Shoot us an email at **[contact@supercubeuv.com](mailto:contact@supercubeuv.com)**.
