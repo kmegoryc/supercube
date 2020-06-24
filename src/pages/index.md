@@ -17,14 +17,14 @@ sections:
     title: Why Supercube™?
     content: >-
       The extended use of personal protective equipment puts workers at risk. We
-      hear stories of nurses cleaning their masks with bleach or harmful
+      heard stories of nurses cleaning their masks with bleach or harmful
       chemicals and were determined to find a better solution. **UVC inactivates
       viruses quickly with no harmful chemicals**, but you must achieve full
-      coverage at the proper dosage. Supercube's rotating carousel design
-      ensures even coverage and proper exposure for every mask. 
+      coverage at the proper dosage. Our rotating carousel design ensures even
+      coverage and proper exposure for every mask. 
 
 
-      **In just a** **few minutes** you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units**. We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
+      With Supercube you can **decontaminate up to 32 masks**, close to point-of-care, with no additional equipment or chemicals. Supercube is **simple to operate and is priced at a fraction of the cost of similar units**. We want to make Supercube accessible to everyone. Whether you are a firefighter in rural Nebraska or a critical care nurse in New York City, you deserve safe and effective PPE.
     section_id: why
   - type: section_features
     title: ""
@@ -33,9 +33,18 @@ sections:
     background: null
     features:
       - title: Reliable results
-        content: Supercube has eight powerful UVC lamps delivering 160 watts of
-          ultraviolet irradiation. In minutes the system will achieve >
-          1J/cm<sup>2</sup> of exposure, within the CDCs treatment level range.
+        content: >-
+          Supercube has eight powerful UVC lamps delivering 160 watts of
+          ultraviolet irradiation. In 40 minutes the system will achieve >
+          1J/cm<sup>2</sup> of exposure, within the CDC's treatment level
+          range.*
+
+
+
+
+
+
+          \*Faster cycle time possible with Pro model.
         image: /images/graph.png
         actions: []
       - title: No harmful chemicals or residues
@@ -67,9 +76,9 @@ sections:
     title: ""
     section_id: request
     content: >-
-      Interested in Supercube? Let us know by filling out this form. We are
-      currently rolling out our pilot program to area hospitals and are
-      accepting preorders.
+      Interested in Supercube? Let us know by filling out this form and we'll
+      contact you within 24 hours. We are currently rolling out our pilot
+      program to U.S. hospitals and are accepting preorders.
 
 
       Have questions? Shoot us an email at **[contact@supercubeuv.com](mailto:contact@supercubeuv.com)**.
