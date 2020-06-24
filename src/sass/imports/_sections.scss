@@ -10,6 +10,10 @@
       position: relative;
       z-index: 0;
 
+      @include respond-down($xs) {
+        display: inline-block;
+      }
+
       &:before {
         content: '';
         position: absolute;
@@ -17,8 +21,14 @@
         z-index: -1;
         top: -20px;
         width: 100%;
-        height: 30%;
+        height: 25px;
         background-color: _palette(accent-alt);
+
+        @include respond-down($xs) {
+          left: 50%;
+          transform: translateX(-50%);
+          width: 90%;
+        }
       }
     }
   }
@@ -166,7 +176,7 @@
   position: relative;
   z-index: 0;
   height: 100vh;
-  min-height: 750px;
+  min-height: 1000px;
   display: flex;
   align-items: center;
   justify-content: flex-start;

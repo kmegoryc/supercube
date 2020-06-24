@@ -8,6 +8,10 @@
   @include respond-down($md) {
     padding: 4.16667rem 4vw 3.33333rem;
   }
+
+  @include respond-down($sm) {
+    padding: 0 4vw;
+  }
 }
 
 .outer {
